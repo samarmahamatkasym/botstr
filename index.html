@@ -5,3 +5,137 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brandly</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Open+Sans:ital,wght@0,300;0,400;1,300;1,700&display=swap" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    
+</head>
+
+<body>
+    <header class="header" id="home">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                  <a class="navbar-brand header__logo" href="#">
+                    <img class="header__logo-img" src="/images/logo.svg" alt="logo-brandly">
+                  </a>
+                  <button class="navbar-toggler header__nav-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z"/></svg>
+                    </span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                      <li class="nav-item header__nav-item">
+                        <a class="nav-link header__nav-link active" aria-current="page" href="#home">Home</a>
+                      </li>
+                      <li class="nav-item header__nav-item">
+                        <a class="nav-link header__nav-link" href="#shops">Shops</a>
+                      </li>
+                      <li class="nav-item header__nav-item">
+                        <a class="nav-link header__nav-link" href="#brands">Brands</a>
+                      </li>
+                      <li class="nav-item header__nav-item">
+                        <a class="nav-link header__nav-link" href="#blog">Blog</a>
+                      </li>
+                      <li class="nav-item header__nav-item">
+                        <a class="nav-link header__nav-link" href="#footer">Contacts</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+    </header>
+    <main>
+        <section class="banner overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h2 class="banner__title">Spring / Summer collection</h2>
+                        <p class="banner__info">Up to 60% discount on new Arrivals</p>
+                        <p class="banner__info-secondary">Trending new items, from creators about the world</p>
+                        <a href="#" class="btn banner__btn">shop now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cat text-center" id="shops">
+          <div class="container">
+            <h2 class="section-title">Categories</h2>
+            <div class="row">
+              <div class="col-12 col-md-4">
+                <div class="cat__item cat__item--men overlay mb-4">
+                  <h3 class="cat__item-title">
+                    <a href="#" class="cat__link">Men</a>
+                  </h3>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="cat__item cat__item--women overlay mb-4">
+                  <h3 class="cat__item-title">
+                    <a href="#" class="cat__link">Women</a>
+                  </h3>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="cat__item cat__item--accessories overlay mb-4">
+                  <h3 class="cat__item-title">
+                    <a href="#" class="cat__link">Accessories</a>
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="blog" id="blogs">
+          <div class="container">
+            <h2 class="section-title text-center">From the Blog</h2>
+            <div class="row" id="brands">
+              <div class="col-12 col-md-6">
+                <div class="blog__item">
+                  <div class="blog__item-img"></div>
+                  <h5 class="blog__item-title">German fashion wizards</h5>
+                  <a href="#" class="blog__item-link">By James Steed | Fashion</a>
+                  <div class="blog__item-line"></div>
+                  <p class="blog__item-text">
+                    This week we had the chance of interviewing two creative artists from Germany.
+                    These guys are simply  amazing at what they do with the 
+                    European fashion scene and this year at Paris Fashion Week they 
+                    introduced their new collection. 
+                  </p>
+                  <a href="#" class="btn blog__btn btn-outline-dark d-md block mb-3">Read More</a>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="blog__item">
+                  <div class="blog__item-img"></div>
+                  <h5 class="blog__item-title">German fashion wizards</h5>
+                  <a href="#" class="blog__item-link">By James Steed | Fashion</a>
+                  <div class="blog__item-line"></div>
+                  <p class="blog__item-text">
+                    This week we had the chance of interviewing two creative artists from Germany.
+                    These guys are simply  amazing at what they do with the 
+                    European fashion scene and this year at Paris Fashion Week they 
+                    introduced their new collection. 
+                  </p>
+                  <a href="#" class="btn blog__btn btn-outline-dark d-md block mb-3">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+    </main>
+    
+    <footer class="footer overlay" id="footer">
+      <div class="container">
+        <p class="footer__text">Copyrtight Brandly.2022</p>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
